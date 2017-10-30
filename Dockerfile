@@ -1,4 +1,4 @@
-FROM php:apache
+FROM php:5.6-apache
 MAINTAINER John Eriksson <@ranbogmord>
 
 RUN a2enmod ssl rewrite
